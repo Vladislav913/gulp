@@ -1,0 +1,63 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+
+/* Start - Сhange of default styles */
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 14px;
+	
+	
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0px;
+	padding: 0px;
+}
+a:active,
+a:hover{
+  	text-decoration: none;
+ 	color: #000;
+}
+button, 
+button:focus,
+button:active, 
+button:focus {
+    outline: none;
+}
+img, ul, form, fieldset {
+	border-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+li{
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	
+	&:focus,
+	&:hover {
+		text-decoration:none;
+		outline:0 none;
+	}
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display:block;}
+
+
+button{
+	padding:0;
+	border:0;
+}
+
+
+
+@import "media";
